@@ -1,10 +1,4 @@
 <?php
-        //-- 2019.04.12 Закомментировал динамические имена, т.к. при изменениях может ломаться Qlik
-	//Получаем название файла php
-	//$path_parts = $_SERVER['PHP_SELF'];
-	//Вычленяем название php
-	//$phpScriptName = str_replace('.php','',substr($path_parts, strrpos($path_parts, '/') + 1));
-
 	//-- Единое название файлов csv для всех
         $phpScriptName = 'DataSet';
         ob_end_clean();
